@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.6.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+group = 'ua.adeptius'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //всё что можно сделать provided
+
+//    compile("org.springframework.boot:spring-boot-starter-test")
+//    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-freemarker")
+//    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.springframework.boot:spring-boot-devtools")
+
+    compile 'org.jsoup:jsoup:1.10.2'
+
+    // adwords
+    compile 'com.google.api-ads:ads-lib:3.2.0'
+    compile 'com.google.api-ads:adwords-axis:3.2.0'
+
+    compile 'mysql:mysql-connector-java:5.1.6'
+
+    //JSON
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+
+    //Mail
+    compile 'javax.mail:mail:1.4.7'
+
+    //String utils
+    compile 'org.apache.commons:commons-lang3:3.0'
+}

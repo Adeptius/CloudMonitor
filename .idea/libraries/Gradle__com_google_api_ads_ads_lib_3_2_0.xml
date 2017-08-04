@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.api-ads:ads-lib:3.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-ads/ads-lib/3.2.0/24e05712fddfbcaf7892e9a05e036fb929f3f5cb/ads-lib-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-ads/ads-lib/3.2.0/97a7af13cb34a2af00fb2d10dc8643eea273b30/ads-lib-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

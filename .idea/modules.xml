@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CloudMonitor.iml" filepath="$PROJECT_DIR$/.idea/modules/CloudMonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CloudMonitor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CloudMonitor_main.iml" group="CloudMonitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CloudMonitor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CloudMonitor_test.iml" group="CloudMonitor" />
+    </modules>
+  </component>
+</project>
